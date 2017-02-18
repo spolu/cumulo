@@ -75,6 +75,7 @@ func (e *CreateUser) Execute(
 
 	// TODO(stan): validate phone with twilio
 	// TODO(stan): send SMS or call Login endpoint
+	//             see https://www.twilio.com/lookup
 
 	db.Commit(ctx)
 
